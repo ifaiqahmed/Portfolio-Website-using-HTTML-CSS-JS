@@ -1,9 +1,13 @@
 * {
-        margin: 0;
-        padding: 0;
-        font-family: 'Poppins' ,'sans-serif';
-        box-sizing: border-box;
-    }
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', 'sans-serif';
+    box-sizing: border-box;
+    
+}
+body {
+    background-color: #18191b
+}
 
 header {
     background-color: #18191b;
@@ -13,43 +17,134 @@ header {
     padding: 20px 70px;
 }
 
-#headerimg {
+#logoImage {
     width: 60px;
 }
 
-#menuLinks {
+.navigation {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-#menuLinks li {
-    margin: 0px 15px;
+#navMenu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#navMenu li {
+    margin: 0 15px;
     list-style-type: none;
     font-weight: 100;
 }
 
-#menuLinks li a {
+#navMenu li a {
     text-decoration: none;
     color: white;
     font-size: 15px;
     font-weight: 100;
 }
 
-.herosection{
+#heroSection {
     background-color: #18191b;
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+
 }
 
-#herotexth2 {
+#introText {
     color: white;
+    font-weight: 300;
+    font-size: 30px;
+}
+
+#nameHighlight {
+    font-size: 20px;
     font-weight: 100;
 }
 
-.text {
-    display: flex;
+#profession {
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 50px;
+    background: linear-gradient(90deg, #00ff00, #00b894); /* Define your gradient colors */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     
 }
 
+.clientsProjects {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.clients h3, .projects h3 {
+font-size: 20px;
+color: white;
+font-weight: 500;
+
+}
+.clients h4 , .projects h4 {
+    font-size: 17px;
+color: white;
+font-weight: 300;
+}
+
 .projects {
-    margin: 0 0 0 13px;
+    margin: 0 40px;
+  
+}
+
+#collaborateButton {
+    background: linear-gradient(90deg, #00ff00, #00b894); /* Define your gradient colors */
+    color: black; /* Text color */
+    border: none; /* Remove border if not needed */
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#collaborateButton:hover {
+    background: linear-gradient(90deg, #00b894, #00ff00); /* Reverse gradient on hover for effect */
+}
+
+.tiltedTextContainer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black; 
+    padding: 20px 0;
+    transform: rotate(-3deg); 
+}
+
+.tiltedText {
+    color: white; 
+    font-size: 18px; 
+    transform: rotate(3deg); 
+}
+
+.about {
+    margin-top: 80px;
+    padding: 0 50px;
+}
+
+.about h3 {
+    font-size: 16px;
+    color: white;
+    font-weight: 200;
+
+}
+.about h4 {
+font-size: 22px;
+padding-top: 10px;
+font-weight: 400;
+color: white;
+}
+
+.about button {
+    margin-top: 20px;
 }
