@@ -148,3 +148,197 @@ color: white;
 .about button {
     margin-top: 20px;
 }
+
+.whatIDo {
+    margin-top: 80px;
+    padding: 0 50px;
+    margin-bottom: 70px ;
+}
+.whatIDo h3 {
+    font-size: 16px;
+    color: white;
+    font-weight: 200;
+}
+
+.whatIDo h4 {
+    padding-top: 10px;
+    font-size: 30px;
+    color: white;
+    font-weight: 400;
+}
+
+.tiltedWork , .tiltedConnect {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black; 
+    padding: 20px 0;
+}
+
+.tiltedTextWork , .tiltedConnnectText{
+    color: white; 
+    font-size: 18px; 
+}
+
+.reviews {
+    margin-top: 80px;
+    padding: 0 50px;
+    margin-bottom: 70px ;
+    text-align: center;
+}
+
+.reviews h3, h2 {
+    font-size: 16px;
+    color: white;
+    font-weight: 200;
+}
+
+.reviews h4 {
+    font-size: 22px;
+    padding-top: 10px;
+    font-weight: 400;
+    color: white;
+    }
+
+.reviews #reviewcontent{
+     display: flex;
+     justify-content: center;
+     padding-top: 10px;
+     align-items: center;
+        
+    }
+
+.reviews #reviewcontent img {
+  width: 5%;
+  border-radius: 50px;
+  margin-right: 10px;
+    }
+
+ .reviews h2 {
+ font-size: 16px;
+ color: white;
+font-weight: 400;
+}
+
+.accordion {
+    margin-top: 80px;
+    padding: 0 50px;
+    margin-bottom: 70px ;
+}
+
+.accordion-item {
+    border-bottom: 1px solid #333;
+}
+
+.accordion-button {
+    background: none;
+    border: none;
+    color: white;
+    text-align: left;
+    width: 100%;
+    padding: 15px;
+    font-size: 20px;
+    cursor: pointer;
+    outline: none;
+    transition: background-color 0.3s ease;
+}
+
+.accordion-button:hover {
+    background-color: #333;
+}
+
+.accordion-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+    padding: 0 15px;
+    color: white;
+}
+
+.accordion-content p {
+    margin: 10px 0;
+}
+    
+.accordion h3{
+    font-size: 16px;
+    color: white;
+    font-weight: 200;
+    margin-bottom: 10px;
+}
+
+.bottom {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+
+.copyright h2 {
+    color: white;
+    font-size: 17px;
+    text-align: center;
+    font-weight: 300;
+    padding-bottom: 10px;
+
+}
+
+.partner {
+    background-color: #333;
+    padding: 30px 50px;
+    border-radius: 10px;
+    border: white solid 1px;
+}
+
+.partner h2{
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.partner h3{
+    font-size: 17px;
+    font-weight: 300;
+    color: white;
+    margin-top: 10px;
+}
+
+.partner h4{
+    margin-top: 50px;
+    font-size: 17px;
+    font-weight: 300;
+    color: white;
+}
+
+.social-links {
+    font-family: 'Poppins', 'sans-serif';
+    background-color: #18191b;
+    color: white;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+}
+
+.social-links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.social-links li {
+    margin: 15px 0;
+}
+
+.social-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+}
+
+.social-links a i {
+    margin-right: 10px;
+    font-size: 24px;
+}
