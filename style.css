@@ -342,3 +342,49 @@ font-weight: 400;
     margin-right: 10px;
     font-size: 24px;
 }
+
+.tab-container {
+    font-family: 'Poppins', 'sans-serif';
+    background-color: #18191b;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.tabs {
+    margin-bottom: 20px;
+}
+
+.tab-button {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.tab-button:hover {
+    background-color: #555;
+}
+
+.tab-content {
+    display: none;
+}
+
+.tab-content.active {
+    display: block;
+}
+
+.image-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.image-grid img {
+    width: 200px;
+    height: 150px;
+    margin: 10px;
+}
