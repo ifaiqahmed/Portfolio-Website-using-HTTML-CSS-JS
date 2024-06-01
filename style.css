@@ -3,10 +3,10 @@
     padding: 0;
     font-family: 'Poppins', 'sans-serif';
     box-sizing: border-box;
-    
 }
+
 body {
-    background-color: #18191b
+    background-color: #18191b;
 }
 
 header {
@@ -51,7 +51,6 @@ header {
     padding: 50px;
     display: flex;
     justify-content: space-between;
-
 }
 
 #introText {
@@ -72,7 +71,6 @@ header {
     background: linear-gradient(90deg, #00ff00, #00b894); /* Define your gradient colors */
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    
 }
 
 .clientsProjects {
@@ -82,20 +80,19 @@ header {
 }
 
 .clients h3, .projects h3 {
-font-size: 20px;
-color: white;
-font-weight: 500;
-
+    font-size: 20px;
+    color: white;
+    font-weight: 500;
 }
-.clients h4 , .projects h4 {
+
+.clients h4, .projects h4 {
     font-size: 17px;
-color: white;
-font-weight: 300;
+    color: white;
+    font-weight: 300;
 }
 
 .projects {
     margin: 0 40px;
-  
 }
 
 #collaborateButton {
@@ -116,15 +113,15 @@ font-weight: 300;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: black; 
+    background-color: black;
     padding: 20px 0;
-    transform: rotate(-3deg); 
+    transform: rotate(-3deg);
 }
 
 .tiltedText {
-    color: white; 
-    font-size: 18px; 
-    transform: rotate(3deg); 
+    color: white;
+    font-size: 18px;
+    transform: rotate(3deg);
 }
 
 .about {
@@ -136,13 +133,13 @@ font-weight: 300;
     font-size: 16px;
     color: white;
     font-weight: 200;
-
 }
+
 .about h4 {
-font-size: 22px;
-padding-top: 10px;
-font-weight: 400;
-color: white;
+    font-size: 22px;
+    padding-top: 10px;
+    font-weight: 400;
+    color: white;
 }
 
 .about button {
@@ -152,8 +149,9 @@ color: white;
 .whatIDo {
     margin-top: 80px;
     padding: 0 50px;
-    margin-bottom: 70px ;
+    margin-bottom: 70px;
 }
+
 .whatIDo h3 {
     font-size: 16px;
     color: white;
@@ -167,23 +165,23 @@ color: white;
     font-weight: 400;
 }
 
-.tiltedWork , .tiltedConnect {
+.tiltedWork, .tiltedConnect {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: black; 
+    background-color: black;
     padding: 20px 0;
 }
 
-.tiltedTextWork , .tiltedConnnectText{
-    color: white; 
-    font-size: 18px; 
+.tiltedTextWork, .tiltedConnnectText {
+    color: white;
+    font-size: 18px;
 }
 
 .reviews {
     margin-top: 80px;
     padding: 0 50px;
-    margin-bottom: 70px ;
+    margin-bottom: 70px;
     text-align: center;
 }
 
@@ -198,32 +196,31 @@ color: white;
     padding-top: 10px;
     font-weight: 400;
     color: white;
-    }
+}
 
-.reviews #reviewcontent{
-     display: flex;
-     justify-content: center;
-     padding-top: 10px;
-     align-items: center;
-        
-    }
+.reviews #reviewcontent {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    align-items: center;
+}
 
 .reviews #reviewcontent img {
-  width: 5%;
-  border-radius: 50px;
-  margin-right: 10px;
-    }
+    width: 5%;
+    border-radius: 50px;
+    margin-right: 10px;
+}
 
- .reviews h2 {
- font-size: 16px;
- color: white;
-font-weight: 400;
+.reviews h2 {
+    font-size: 16px;
+    color: white;
+    font-weight: 400;
 }
 
 .accordion {
     margin-top: 80px;
     padding: 0 50px;
-    margin-bottom: 70px ;
+    margin-bottom: 70px;
 }
 
 .accordion-item {
@@ -258,8 +255,8 @@ font-weight: 400;
 .accordion-content p {
     margin: 10px 0;
 }
-    
-.accordion h3{
+
+.accordion h3 {
     font-size: 16px;
     color: white;
     font-weight: 200;
@@ -280,7 +277,6 @@ font-weight: 400;
     text-align: center;
     font-weight: 300;
     padding-bottom: 10px;
-
 }
 
 .partner {
@@ -290,19 +286,19 @@ font-weight: 400;
     border: white solid 1px;
 }
 
-.partner h2{
+.partner h2 {
     font-size: 30px;
     font-weight: 500;
 }
 
-.partner h3{
+.partner h3 {
     font-size: 17px;
     font-weight: 300;
     color: white;
     margin-top: 10px;
 }
 
-.partner h4{
+.partner h4 {
     margin-top: 50px;
     font-size: 17px;
     font-weight: 300;
@@ -344,8 +340,6 @@ font-weight: 400;
 }
 
 .tab-container {
-    font-family: 'Poppins', 'sans-serif';
-    background-color: #18191b;
     color: white;
     text-align: center;
     padding: 20px;
@@ -388,3 +382,74 @@ font-weight: 400;
     height: 150px;
     margin: 10px;
 }
+
+.toggle-button {
+    position: absolute;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+}
+
+.toggle-button .bar {
+    height: 3px;
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+}
+
+
+@media (max-width: 600px) {
+    .toggle-button {
+        display: flex;
+    }
+    
+    .navigation {
+        display: none;
+        width: 100%;
+    }
+
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .navigation ul {
+        flex-direction: column;
+        width: 100%;
+    }
+    
+    .navigation li {
+        text-align: center;
+    }
+
+    .navigation li a {
+        padding: 0.5rem 1rem;
+    }
+
+    .navigation.active {
+        display: flex;
+    }
+
+    #heroSection {
+        background-color: #18191b;
+        padding: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .heroText {
+        text-align: center;
+     }
+    
+     .clientsProjects {
+        text-align: center;
+        display: flex;
+        justify-content:center;
+}
+}
+   

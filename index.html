@@ -2,8 +2,8 @@
 <html lang="en">
 <head>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio Website</title>
@@ -14,7 +14,11 @@
         <div class="logo">
             <img id="logoImage" src="img/001.jpg" alt="Logo">
         </div> 
-          
+        <a href="#" class="toggle-button">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </a>
         <nav class="navigation">
             <ul id="navMenu">
                 <li><a href="#about">About</a></li>
@@ -30,7 +34,6 @@
         <div class="heroText">
             <h2 id="introText">Hi! I'm <span id="nameHighlight">Faiq Ahmed</span></h2>
             <h3 id="profession">Web Developer</h3>
-
             <div class="clientsProjects">
                 <div class="clients">
                     <h3>20+</h3>
@@ -43,7 +46,6 @@
             </div>
             <button id="collaborateButton">Let's Collaborate</button>
         </div>
-
         <div class="heroimg">
             <img src="img/001.jpg" alt="">
         </div>
@@ -70,9 +72,9 @@
         <hr>
         <h4>WEB DEVELOPEMENT</h4>
         <hr>
-     </section>  
+    </section>  
 
-     <section class="tiltedWork">
+    <section class="tiltedWork">
         <span class="tiltedTextWork">✦ Work</span>
         <span class="tiltedTextWork">✦ Work</span>
         <span class="tiltedTextWork">✦ Work</span>
@@ -98,7 +100,7 @@
                 <img src="img/web-design8.jpg" alt="Web Design 8">
             </div>
         </div>
-        <div class="tab-content" id="web-dev" style="display: none;">
+        <div class="tab-content" id="web-dev">
             <div class="image-grid">
                 <img src="img/web-dev1.jpg" alt="Web Dev 1">
                 <img src="img/web-dev2.jpg" alt="Web Dev 2">
@@ -110,7 +112,7 @@
                 <img src="img/web-dev8.jpg" alt="Web Dev 8">
             </div>
         </div>
-        <div class="tab-content" id="ui-ux" style="display: none;">
+        <div class="tab-content" id="ui-ux">
             <div class="image-grid">
                 <img src="img/ui-ux1.jpg" alt="UI/UX 1">
                 <img src="img/ui-ux2.jpg" alt="UI/UX 2">
@@ -122,7 +124,7 @@
                 <img src="img/ui-ux8.jpg" alt="UI/UX 8">
             </div>
         </div>
-        <div class="tab-content" id="seo" style="display: none;">
+        <div class="tab-content" id="seo">
             <div class="image-grid">
                 <img src="img/seo1.jpg" alt="SEO 1">
                 <img src="img/seo2.jpg" alt="SEO 2">
@@ -135,15 +137,14 @@
             </div>
         </div>
     </section>
-    
 
     <section class="reviews">
         <h3>What they say</h3>
-       <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero quibusdam quisquam dolores deserunt optio dolor doloremque non doloribus! Aspernatur perspiciatis laboriosam ipsam obcaecati odio non dicta debitis deleniti, ducimus ratione.</h4>
-       <div id="reviewcontent">
-        <img src="img/001.jpg" alt="">
-        <h2>Adam</h2>
-       </div>
+        <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero quibusdam quisquam dolores deserunt optio dolor doloremque non doloribus! Aspernatur perspiciatis laboriosam ipsam obcaecati odio non dicta debitis deleniti, ducimus ratione.</h4>
+        <div id="reviewcontent">
+            <img src="img/001.jpg" alt="">
+            <h2>Adam</h2>
+        </div>
     </section>
 
     <section class="accordion">
@@ -190,9 +191,9 @@
     
     <footer class="bottom">
         <div class="partner">
-        <h2>Need a design partner</h2>
-        <h3>Shoot me with your project details at</h3>
-        <h4>Phone +92 311 7713658</h4>
+            <h2>Need a design partner</h2>
+            <h3>Shoot me with your project details at</h3>
+            <h4>Phone +92 311 7713658</h4>
         </div>
 
         <div class="social-links">
@@ -205,7 +206,7 @@
             </ul>
         </div>
     </footer>
-     <div class="copyright"><h2>All Rights Reserved</h2></div>
+    <div class="copyright"><h2>All Rights Reserved</h2></div>
 </body>
 <script src="script.js"></script>
 </html>
