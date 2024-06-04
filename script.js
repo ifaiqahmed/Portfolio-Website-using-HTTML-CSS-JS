@@ -1,7 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
     const toggleButton = document.querySelector('.toggle-button');
     const navbarLinks = document.querySelector('.navigation');
-
     toggleButton.addEventListener('click', () => {
         navbarLinks.classList.toggle('active');
     });

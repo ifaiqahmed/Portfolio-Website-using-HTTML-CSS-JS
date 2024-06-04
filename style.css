@@ -59,6 +59,11 @@ header {
     font-size: 30px;
 }
 
+.heroimg img{
+    width: 300px;
+    height: 100%;
+}
+
 #nameHighlight {
     font-size: 20px;
     font-weight: 100;
@@ -451,5 +456,71 @@ header {
         display: flex;
         justify-content:center;
 }
+
+.tiltedTextContainer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    padding: 20px 0;
+    transform: rotate(-3deg);
+}
+
+.tiltedText {
+    color: white;
+    font-size: 13px;
+    transform: rotate(3deg);
+}
+
+.about h4 {
+    font-size: 17px;
+    padding-top: 10px;
+    font-weight: 400;
+    color: white;
+}
+
+.whatIDo h4 {
+    padding-top: 10px;
+    font-size: 25px;
+    color: white;
+    font-weight: 400;
+}
+.reviews h4 {
+    font-size: 17px;
+    padding-top: 10px;
+    font-weight: 400;
+    color: white;
+}
+.accordion-button {
+    background: none;
+    border: none;
+    color: white;
+    text-align: left;
+    width: 100%;
+    padding: 15px;
+    font-size: 17px;
+    cursor: pointer;
+    outline: none;
+    transition: background-color 0.3s ease;
+}
+.accordion-content p {
+    margin: 10px 0;
+    font-size: 15px;
+    font-weight: 300;
+}
+.tiltedConnnectText {
+    color: white;
+    font-size: 13px;
+}
+.bottom {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 80px;
+    margin-bottom: 10px;
+}
+
+
 }
    
